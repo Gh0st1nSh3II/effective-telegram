@@ -7,8 +7,6 @@ public interface IElement {
 
     void clickAndWait();
 
-    default String getText() {
-        return getText();
-    }
+
 
 }
